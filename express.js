@@ -24,7 +24,7 @@ app.get('/', function(req, res)
 
 app.get('/about', function(req, res)
 {
-	res.send('about us');
+	res.send('about us!');
 });
 
 app.get('/nani',middleware.requireAuthentication,function(req, res)
